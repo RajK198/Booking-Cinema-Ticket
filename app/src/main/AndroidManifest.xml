@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.code_revolution.yuknontoncinema">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="YukNonton"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:parentActivityName=".MovieList"
+            android:name=".Movie"
+            android:label="@string/title_activity_movie"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MovieList"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TicketBooking"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TicketDetail"
+
+            android:parentActivityName=".TicketBooking"/>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

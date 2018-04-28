@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.code_revolution.yuknontoncinema.Info"
+    tools:showIn="@layout/activity_info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/film"
+                android:textSize="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YukNonton Cinema" />
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#222222"
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No Telepon"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": 0361980789"
+                    android:id="@+id/rilis"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Jalan Gunung Rinjani"
+                    android:id="@+id/genre"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kota"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Denpasar"
+                    android:id="@+id/menit"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Provinsi"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Bali"
+                    android:id="@+id/meniat"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="H. Reguler"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Rp50,000.00"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="H. Eksekutif"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Rp75,000.00"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fasilitas"
+                    android:textColor="#222222"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": 2 Studio, 1 Restoran, 2 Kamar Mandi, 1 Musholla"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>
